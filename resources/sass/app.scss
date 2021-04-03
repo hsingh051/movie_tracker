@@ -1,0 +1,26 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.filterMovies{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.action-icons i{
+    font-size: 22px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.action-icons i:hover, .action-icons i.fa-heart.active{
+    color: red;
+}
+.action-icons i.fa-eye:hover, .action-icons i.fa-eye.active{
+    color: green;
+}
